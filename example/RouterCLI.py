@@ -1,8 +1,17 @@
 #!/usr/bin/python
 
-import copy, traceback, sys, struct, socket
-from defaultCmd import DefaultCmd, configureLogger, clearedDictValues
+import copy
+import traceback
+import os
+import sys
+import struct
+import socket
 import logging
+
+sys.path.append(os.getcwd()+"/../")
+from defaultCmd import DefaultCmd, configureLogger, clearedDictValues
+del sys.path[-1]
+
 import testingData
 
 logger = logging.getLogger('cmd')
