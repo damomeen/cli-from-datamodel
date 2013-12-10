@@ -25,7 +25,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 Autors: Damian Parniewicz (damian.parniewicz at gmail.com)
-           £ukasz Ogrodowczyk (lukaszorg at man.poznan.pl)
+           £ukasz Ogrodowczyk (lukaszog at man.poznan.pl)
 """
 
 import copy
